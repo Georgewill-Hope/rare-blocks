@@ -1,10 +1,12 @@
-import React from "react";
 import Hero from "@/components/Hero";
+import React from "react";
 
-export default function Home() {
+const page = () => {
   return (
     <React.Fragment>
       <Hero />
     </React.Fragment>
   );
-}
+};
+
+export default page;
